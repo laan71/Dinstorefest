@@ -1,0 +1,737 @@
+body {
+    background-color: #B2D4D0;
+    height: auto;
+    max-width: 100%;
+    margin: 0;
+}
+
+
+
+.logo {
+    width: 175px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+
+
+
+
+.brideGroom {
+    height: auto;
+    max-width: 100%;
+    border-top-width: 1px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-style: solid;
+    border-color: white;
+    z-index: 2;
+}
+
+
+a {
+    display: block;
+    font-family: "Arial";
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+
+p {
+    font-family: "Arial";
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: normal;
+    color: black;
+}
+
+
+
+h2 {
+    font-family: Britannic;
+    font-size: 40px;
+    font-weight: bold;
+    color: #DB6481;
+}
+
+
+b {
+    font-family: "Arial";
+    font-weight: bold;
+}
+
+.createProfileHere {
+    color: white;
+}
+
+
+
+
+.box {
+
+    top: 45%;
+    left: 35%;
+    width: 700px;
+    height: 520px;
+    background-color: white;
+    opacity: .87;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    position: absolute;
+    z-index: 1;
+    align-items: center;
+}
+
+
+
+
+@font-face{
+    font-family: britannic;
+    src:url("https://www.dafontfree.net/data/13/b/64530/BRITANIC.TTF");
+    font-weight: bold;
+}
+
+
+
+
+
+.createProfileDiv {
+    float: right;
+    position: relative;
+    margin-top: 1.5vw;
+    margin-right: 3vw;
+}
+
+.signIn {
+    float: right;
+    position: relative;
+    margin-top: 2.3vw;
+    margin-right: 0.7vw;
+}
+
+
+
+
+.signInText {
+    color: #DB6481;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.createProfile {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #DB6481;
+    padding-right: 20px;
+    padding-top: 11px;
+    padding-left: 20px;
+    padding-bottom: 11px;
+    border: none;
+    border-radius: 28px;
+}
+
+
+.contentPage {
+    height: 780px;
+    max-width: 100%;
+    background-color: white;
+}
+
+
+
+
+
+.leftMenu {
+    float: left;
+    width: 14%;
+}
+
+
+.leftMenuText {
+    padding-left: 30px;
+    font-family: Britannic;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+}
+
+
+.formPage {
+    float: right;
+    text-align: center;
+    width: 86%;
+    height: 600px;
+    align-content: center;
+}
+
+
+
+
+.formCreateForm input {
+    color: #bdbdbd;
+    font-family: "Arial";
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-color: #707070;
+    border-width: thin;
+    border-radius: 14px;
+    text-align: center;
+}
+
+
+.formCreateFormMember input {
+    color: #bdbdbd;
+    font-family: "Arial";
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-color: #707070;
+    border-width: thin;
+    border-radius: 14px;
+}
+
+
+.brugernavn {
+    padding-right: 156px;
+    padding-left: 30px;
+}
+
+.brugernavn[type=text] {
+    text-align:left;
+}
+
+
+.adgangskode {
+    padding-right: 156px;
+    padding-left: 30px;
+}
+
+
+.adgangskode[type=text] {
+    text-align:left;
+}
+
+
+.email {
+    padding-right: 156px;
+    padding-left: 30px;
+}
+
+.email[type=email] {
+    text-align:left;
+}
+
+
+.fuldeNavn {
+    padding-right: 156px;
+    padding-left: 30px;
+}
+
+.fuldeNavn[type=text] {
+    text-align:left;
+}
+
+.labelMember {
+    text-align: left;
+}
+
+
+.formCreateForm label {
+    color: black;
+    font-family: "Britannic";
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.formCreateFormMember label {
+    color: black;
+    font-family: "Britannic";
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+}
+
+
+
+.contentPageMember {
+    height: 1570px;
+    max-width: 100%;
+    background-color: white;
+    border-top-width: 2px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-style: solid;
+    border-color: #B2D4D0;
+
+}
+
+
+.formPageMember {
+    width: 86%;
+    text-align: left;
+    float: right;
+}
+
+
+
+span1 {
+    color: red;
+}
+
+
+.checkboxMark {
+    margin-left: 20px;
+}
+
+
+.checkboxMarkNewPass {
+    margin-left: -300px;
+}
+
+
+
+
+.checkboxAccept{
+    margin-left: -2px;
+}
+
+
+.accept {
+    font-family: Arial;
+    font-size: 12px;
+}
+
+
+.huskMig {
+    color: #DB6481;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.spacing {
+    margin-top: -10px;
+}
+
+.spacingNewPass {
+    margin-top: 5px;
+}
+
+.glemt {
+    color: #DB6481;
+    padding-left: 194px;
+    font-size: 12px;
+}
+
+
+
+.eller {
+    color: #DB6481;
+    font-size: 18px;
+}
+
+.formCreateForm .submitLogin {
+    color: white;
+    font-family: Britannic;
+    font-weight: bold;
+    font-size: 24px;
+    border: none;
+    background-color: #DB6481;
+    padding-right: 73px;
+    padding-left: 73px;
+}
+
+
+.formCreateForm .submitMember {
+    color: white;
+    font-family: Britannic;
+    font-weight: bold;
+    font-size: 24px;
+    border: none;
+    background-color: #DB6481;
+    padding-right: 48px;
+    padding-left: 48px;
+}
+
+.formCreateForm .submitGlemtAdgangskode {
+    color: white;
+    font-family: Britannic;
+    font-weight: bold;
+    font-size: 24px;
+    border: none;
+    background-color: #DB6481;
+    padding-right: 83px;
+    padding-left: 83px;
+}
+
+
+.kortnummer {
+    padding-left: 28px;
+    padding-right: 164px;
+    background: url(images/CreditCard.png) no-repeat right;
+    background-size: 40px;
+    background-color: white;
+    background-position-x: 358px;
+}
+
+
+.expire {
+    padding-left: 28px;
+    padding-right: 164px;
+}
+
+
+.kontrolcifre {
+    padding-left: 28px;
+    padding-right: 164px;
+}
+
+
+.memberTerms {
+    margin-top: -20px;
+}
+
+
+.data {
+    font-family: Arial;
+    font-size: 11px;
+    color: #4F4F4F;
+    margin-top: -3px;
+}
+
+.dataLink {
+    text-decoration: underline;
+    color: #4F4F4F;
+    margin-top: -3px;
+}
+
+
+.dataMember {
+    font-family: Arial;
+    font-size: 11px;
+    margin-top: -10px;
+    color: #4F4F4F;
+}
+
+
+.dataMemberLink {
+    text-decoration: underline;
+    color: #4F4F4F;
+    margin-top: -10px;
+}
+
+
+
+
+
+
+.formCreateFormMember .submitMember49kr {
+    color: white;
+    font-family: Britannic;
+    font-weight: bold;
+    font-size: 24px;
+    border: none;
+    background-color: #DB6481;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+
+
+div div div .rabatter {
+    color: #DB6481;
+}
+
+/* Navbar container */
+.navbar {
+    overflow: hidden;
+    background-color: #B2D4D0;
+    font-family: Arial;
+    padding-left: 300px;
+    margin: -8px;
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+    font-family: Britannic;
+    font-size: 25px;
+    font-weight: bold;
+    border-top: white;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #B2D4D0;
+    color: #FBE5C8;
+}
+
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #B2D4D0;
+    left: 0;
+    padding-left: 310px;
+    width: calc(100% - 310px);
+    border-top: 1px solid white;
+    z-index: 3;
+    margin-top: 0px;
+}
+
+
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 20%;
+    background-color: #B2D4D0;
+    height: 250px;
+}
+
+/* Style links inside the columns */
+.column a {
+    float: none;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+/* Add a background color on hover */
+.column a:hover {
+    background-color: #B2D4D0;
+}
+
+
+
+.searchfield {
+    float: right;
+}
+
+
+.search {
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background: url(images/Magnefier.png) no-repeat left;
+    background-size: 20px;
+    background-color: white;
+    border: none;
+    font-size: 11px;
+    text-align: right;
+    border-radius: 5px;
+    background-position-x: 5px;
+}
+
+
+
+
+
+header .navbar, .dropdown:first-child .dropbtn {
+}
+
+
+
+
+::placeholder {
+    color: #B2D4D0;
+}
+
+
+.marketing {
+    font-family: "Arial";
+    font-size: 30px;
+    font-weight: bold;
+    color: #DB6481;
+    margin-left: 3%;
+}
+
+
+.subscribeForm {
+    padding-left: 5%;
+}
+
+
+.userInputName {
+    color: grey;
+    background-color: white;
+    font-family: "Arial";
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 56px;
+    padding-top: 7px;
+    padding-left: 56px;
+    padding-bottom: 7px;
+    border: none;
+    border-radius: 8px;
+}
+
+
+
+.userInputEmail {
+    color: grey;
+    background-color: white;
+    font-family: "Arial";
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 56px;
+    padding-top: 7px;
+    padding-left: 56px;
+    padding-bottom: 7px;
+    border: none;
+    border-radius: 8px;
+}
+
+
+
+.submit {
+    color: white;
+    background-color: #DB6481;
+    font-family: "Arial";
+    font-size: 16px;
+    font-weight: bold;
+    padding-right: 135px;
+    padding-top: 7px;
+    padding-left: 135px;
+    padding-bottom: 7px;
+    border: none;
+    border-radius: 8px;
+}
+
+
+.bottom1 {
+    font-size: 20px;
+}
+
+
+
+.bottomFirstLine {
+    text-align: right;
+    margin-right: 26px;
+}
+
+.bottom1a li{
+    display: inline-block;
+    float: none;
+}
+
+.bottom2 {
+    font-size: 16px;
+}
+
+
+
+
+.bottom2a li, a {
+    display: inline-block;
+    float: none;
+}
+
+
+.fa-stack {
+    margin-right: -25px;
+}
+
+
+.bottomSecondLine {
+    text-align: right;
+    margin-right: 40px;
+}
+
+.bottom2a .bottom2 {
+    display: inline-block;
+    float: none;
+}
+
+
+
+
+hr {
+    border-top: white;
+}
+
+
+footer {
+    height: auto;
+    max-width: 100%;
+}
+
+
+.fa-stack-2x {
+    font-size: 1.7em;
+    line-height: 1.2em;
+}
+
+
+
+
+
+@media only screen and (max-width: 1180px) {
+    .box {
+        top: 45%;
+        left: 35%;
+        width: 350px;
+        height: 260px;
+    }
+
+
+    p {
+        font-size: 10px;
+        line-height: 1.8;
+    }
+
+
+    /* Dropdown button */
+    .dropdown .dropbtn {
+        font-size: 20px;
+        padding: 12px 10px;
+    }
+
+
+    .logo {
+        width: 80px;
+        top: 10px;
+        left: 10px;
+    }
+}
